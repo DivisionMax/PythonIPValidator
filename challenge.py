@@ -5,8 +5,8 @@ output_file_invalid_ips_name = 'invalidIPs.txt'
 
 """
 IPv4 (32-bit) and IPv6 (64-bit)
-IPv4 example 12:34:56:78
-IPv6 example 1234:5678:9abc:def0:1234:5678:9abc:def0. 
+IPv4 example 12:34:56:78 - 255.255.255.255 (8 bits)
+IPv6 example 1234:5678:9abc:def0:1234:5678:9abc:def0 - Base 16
 Double colons (::) represent a string of zero entries so 1234:0:9abc:0:0:0:0:def0 could be 1234:0:9abc::def0
 """
 
